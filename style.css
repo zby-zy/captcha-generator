@@ -1,17 +1,21 @@
+@font-face {
+  font-family: myFont;
+  src: url(Aboriginal_Serif_BOLD_939.ttf);
+  }
 * {
     padding: 5px;
     margin: 5px;
     box-sizing: border-box;
   }
   h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: myFont;
     text-align: center;
     margin: 50px;
-    font-size: 60px;
+    font-size: 70px;
   }
   body {
-    height: 100vh;
-    background-image: radial-gradient(#62daf0, #8ea7fa);
+    height: 00vh;
+    background-color: #8ea7fa;
   }
   .container {
     width: 36em;
